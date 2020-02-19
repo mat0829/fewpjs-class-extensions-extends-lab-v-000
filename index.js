@@ -2,6 +2,7 @@
 
 class Polygon {
   constructor(arrayOfSides) {
+<<<<<<< HEAD
     this.arrayOfSides = arrayOfSides
   }
   
@@ -42,5 +43,12 @@ class Square extends Polygon {
   let side3 = this.arrayOfSides[2]
   let side4 = this.arrayOfSides[3]
   return ((side1 == side2) && (side1 == side3) && (side1 == side4))
+=======
+    self.arrayOfSides = arrayOfSides
+  }
+  
+  get countSides(arrayOfSides) {
+    return self.arrayOfSides.length
+>>>>>>> 110c74feede2b544ed252e3a68af4ffdfac5de67
   }
 }
